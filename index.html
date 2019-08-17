@@ -36,12 +36,17 @@
                 </div>
                 <div class='row'>
                     <div class='col-fluid'>
-                        Number of Records to retrieve:
-                    </div>
-                </div>
-                <div class='row'>
-                    <div class='col-fluid'>
-                        <input id='records'>
+
+                        <div class="form-group" id="records">
+                            <label for="exampleFormControlSelect1">Number of Records to Retrieve:</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
                 <div class='row'>
@@ -65,14 +70,25 @@
                     </div>
                 </div>
                 <div class='row'>
-                    <div class='col-fluid'>
-                        <button id='search' class='btn btn-primary'>Search</button><button id='clearSearch' class=''>Clear Search</button>
+
+                    <div class="col-md-2">
+                        <button id='search' class='btn btn-primary fa fa-search'>Search</button>
+
                     </div>
+                    <div class="col-md-2">
+                        <button id='clearSearch' class='btn-light btn-lg fa fa-trash-o'>Clear</button>
+
+                    </div>
+
+
+
                 </div>
             </div>
         </div>
 
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 
 </html>
