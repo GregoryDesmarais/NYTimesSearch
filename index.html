@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>NY Times Search!</title>
+</head>
+
+<body>
+    <div class='container-fluid header text-center py-2'>
+
+        <h1>
+            <i class="fa fa-newspaper-o" aria-hidden="true"></i> New York Times Search
+        </h1>
+    </div>
+    <div class='card'>
+        <div class='card-header'>
+            Search Parameters
+        </div>
+        <div class='card-body'>
+            <div class='container'>
+                <div class='row'>
+                    <div class='col-fluid'>
+                        Search Term:
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-fluid'>
+                        <input id='query'>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-fluid'>
+                        Number of Records to retrieve:
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-fluid'>
+                        <input id='records'>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-fluid'>
+                        Start Year (optional):
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-fluid'>
+                        <input id='sYear'>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-fluid'>
+                        End Year(optional):
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-fluid'>
+                        <input id='eYear'>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-fluid'>
+                        <button id='search' class='btn btn-primary'>Search</button><button id='clearSearch' class=''>Clear Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
